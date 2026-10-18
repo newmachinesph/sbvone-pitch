@@ -1,0 +1,34 @@
+{
+  "name": "dogmai-website",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@next/third-parties": "^16.0.10",
+    "@supabase/supabase-js": "^2.86.0",
+    "framer-motion": "^11.0.0",
+    "next": "^16.0.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-easy-crop": "^5.5.6",
+    "spectacle": "^10.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19",
+    "baseline-browser-mapping": "^2.9.2",
+    "eslint": "^9",
+    "eslint-config-next": "^16.0.7",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
